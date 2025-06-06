@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
+    <link rel="icon" type="image/png" href="./assets/tab-pic.png">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="mediaqueries.css">
 </head>
@@ -41,18 +42,18 @@
         </div>
     </nav>
 
-    <section id="profile">
+    <section id="profile" class="profile-section">
         <div class="section-pic-container">
             <img src="./assets/profile-pic.png" alt="Eugene's profile picture">
         </div>
 
-        <div claaa="section-text">
+        <div class="section-text">
             <p class="section-text-p1">Hello, I'm</p>
             <h1 class="title">Eugene Huang Xin Zhe</h1>
             <p class="section-text-p2">
-                <div class="animated-text">
+                <span class="animated-text">
                     I'm &nbsp<span></span>
-                </div>
+                </span>
             </p>
             <br>
             <div class="btn-container">
@@ -68,6 +69,242 @@
 
         </div>
     </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="section">
+        <h2>About Me</h2>
+        <p>Hello! Thank you for paying a visit to my portfolio website. 
+            I'm currently a Year 3 student doing Masters in Electrical and Electronics Engineering in University of Nottingham Malaysia. 
+            Since I'm still new to the engineering industry, I'm open to any positions as 
+            I would like to explore as many roles as possible to find my passion and interest. 
+        </p>
+    </section>
+
+    <!-- EXPERIENCE SECTION -->
+    <section id="experience" class="section">
+        <h2>Experience</h2>
+
+        <div class="experience-item">
+            <img src="./assets/company1.jpg" alt="Company 1 Logo">
+            <div class="text">
+                <h3>ViTrox Technologies Sdn. Bhd. </h3>
+                <p>
+                    ABI-AXI R&D Team Intern <br><br>
+                    UI design for Turing Simulator.
+                    Implementation of Strobe Mode Camera hardware, and integration from frontend (JavaFX) to backend (C++, JAVA)
+                    Data analysis using Python. 
+                    Implementation and research on Motion Compensation Algorithm using C++ involving gantry corrections matrix transformations.
+                </p>
+            </div>
+        </div>
+
+        <div class="experience-item reverse">
+            <img src="./assets/company2.jpeg" alt="Company 2 Logo">
+            <div class="text">
+                <h3>Huawei Technologies (Malaysia) Sdn. Bhd.</h3>
+                <p>
+                    Core Network Team Intern <br><br>
+                    On going internship</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section id="projects" class="section">
+        <h2>Projects</h2>
+
+        <div class="project-item">
+            <img src="./assets/project3_poster.png" alt="Project 3 Screenshot">
+            <div class="text">
+                
+                <h3>Wildlife Detection and Alert System</h3>
+                <p>Real-time elephant detection system with object tracking
+                     using YOLO and YAMNET models for both vision and audio detections. 
+                    Utilizing the latest Raspberry Pi 5 and Raspberry Pi 4
+                     powered by solar energy, equipped with waterproof device casing, 
+                     self hosted internet hotspot with external antenna. 
+                    Sends real time detections to a website and shows alerts in the Telegram Application.
+
+                </p>
+            </div>
+        </div>
+
+        <div class="project-item">
+            <img src="./assets/project3_result.jpg" alt="Project 3 Screenshot">
+            <div class="text">
+                <p>
+                    Accurate and vibrant detection capture of elephants in Elephant Conservation Centre, Kuala Gandah, Pahang.
+                    Able to consistently output detections and distinguish human activities and elephants using object tracking and YOLO.
+                </p>
+            </div>
+        </div>
+
+        <div class="project-item reverse">
+            <img src="./assets/project2.png" alt="Project 2 Screenshot">
+            <div class="text">
+
+                <h3>Doppler Radar Based Speed Detector</h3>
+                <p>Design signal conditioning circuits, implement ADC and comparator on STM32 microcontroller, 
+                    establishing RS485 communications, power supply regulator circuits, external clocks and a CPLD (Xilinx XC2C64A) to display detected speed on 7 segment display via a control logic block, shift registers and state machines. 
+
+                </p>
+            </div>
+        </div>
+
+        <div class="project-item reverse">
+            <img src="./assets/project2_pcb.png" alt="Project 2 Screenshot">
+            <div class="text">
+
+                <p>Self designed filter and amplifier circuit to remove noise and amplifier signal from Doppler Radar Module. 
+                    Signal waveform analysis using LTSpice software.
+                </p>
+            </div>
+        </div>
+
+        <div class="project-item">
+            <img src="./assets/project2_power.png" alt="Project 2 Screenshot">
+            <div class="text">
+
+                <h3>Two Switch Forward Converter</h3>
+                <p>
+                    A common topology in computing 
+                    power supplies, involves transforming a 230V, 50Hz main supply to a regulated 8V output across a 
+                    50W variable load bank. The project's aim is to achieve a stable output voltage regardless of the 
+                    applied load, within the specified limits. Learn to design control systems, transformers and analyse performance using MATLAB and PLECS software. 
+                </p>
+            </div>
+        </div>
+
+        <div class="project-item">
+            <img src="./assets/project2_pcb_design.png" alt="Project 2 Screenshot">
+            <div class="text">
+
+                <p> Self design a PCB according to the specifications given using KiCAD software. 
+                    After manufacture, learn to troubleshoot the copper wire connections and do testing after component solderings. 
+                </p>
+            </div>
+        </div>
+
+        <div class="project-item reverse">
+            <img src="./assets/project1_arduino.jpg" alt="Project 1 Screenshot">
+            <div class="text">
+
+                <h3>Mediocre Smart Vision Robot Car</h3>
+                <p>Arduino Robot car equipped with encoders, gyroscope, ultrasonic sensor, bluetooth remote handling, and self made IR sensors for line following. 
+                    Robot car is tasked with the mission to go up a ramp, spin 360 degrees, descend the ramp and follow the black line till the finish line within the time limit. 
+                    Programmed using C programming language.     
+                </p>
+            </div>
+        </div>
+
+        <div class="project-item reverse">
+            <img src="./assets/project1_raspberry.png" alt="Project 1 Screenshot">
+            <div class="text">
+
+                <h3>Even Smarter Vision Robot Car</h3>
+                <p>This time using Raspberry Pi 4B, this upgraded robot car is able to choose to follow specific colour lines, and recognize different shapes of varying colours along the way. Programmed using Python and OpenCV library.
+                    Face recognition is also included as an additional feature. 
+                </p>
+            </div>
+        </div>
+
+        <div class="project-item ">
+            <img src="./assets/website_login.png" alt="Project 2 Screenshot">
+            <div class="text">
+                <a href="https://elephant-detection-website-production.onrender.com/" target="_blank" rel="noopener noreferrer">                  
+                <h3>Wildlife Detection Website</h3>
+                </a>
+                <p>Authentication equipped login, sign up page, and remember me feature. Made using MERNSTACK.</p>
+            </div>
+        </div>
+
+        <div class="project-item ">
+            <img src="./assets/website_dashboard.png" alt="Project 2 Screenshot">
+            <div class="text">
+                <p>Modern Looking Responsive Dashboard, and multi-tab website. Graphic Display of Data collected, tracking of wildlife detections, location density of wildlife, report download.</p>
+            </div>
+        </div>
+
+        <div class="project-item reverse">
+            <img src="./assets/badminton_store.png" alt="Project 2 Screenshot">
+            <div class="text">
+                <a href="https://yonex-badminton-store.onrender.com" target="_blank" rel="noopener noreferrer">
+                <h3>Yonex Badminton Store Management Website</h3>
+                </a>
+
+                <p>Keep track of racket and shuttlecock stocks! Made using MERNSTACK.</p>
+            </div>
+        </div>
+
+        <div class="project-item reverse">
+            <img src="./assets/badminton_dashboard.png" alt="Project 2 Screenshot">
+            <div class="text">
+
+                <p>Dark Mode and Light Mode using Chakra UI. Edit and delete features. </p>
+            </div>
+        </div>
+
+        <div class="project-item ">
+            <img src="./assets/memoryGame.png" alt="Project 2 Screenshot">
+            <div class="text">
+                <a href="https://happywizard.github.io/Memory-Game/" target="_blank" rel="noopener noreferrer">
+                <h3>Memory Game</h3>
+                </a>
+
+                <p>Flip the correct pair of cards before the time runs out! 
+                    Then you are hereby eligible for University of Nottingham. 
+                    Again, made using html, css and slightly more advanced javascript. </p>
+            </div>
+        </div>
+
+        <div class="project-item reverse">
+            <img src="./assets/tictactoe.png" alt="Project 2 Screenshot">
+            <div class="text">
+                <a href="https://happywizard.github.io/Game/" target="_blank" rel="noopener noreferrer">                                    
+                <h3>Dual-Player Tic Tac Toe Game</h3>
+                </a>
+                <p>Just the ordinary tic tac toe game, but more fancy looking.</p>
+            </div>
+        </div>
+
+        <div class="project-item ">
+            <img src="./assets/kdramaquiz.png" alt="Project 2 Screenshot">
+            <div class="text">
+                <a href="https://happywizard.github.io/Quizzes/" target="_blank" rel="noopener noreferrer">                  
+                <h3>Pop Quiz</h3>
+                </a>
+                
+                <p>A leisure game for kdrama fans, naming the dramas, with pop up windows and scoring system, made using html, css and javascript.</p>
+            </div>
+        </div>
+
+        <div class="project-item reverse">
+            <img src="./assets/bunnygame.png" alt="Project 2 Screenshot">
+            <div class="text">
+                <a href="https://happywizard.github.io/website/" target="_blank" rel="noopener noreferrer">
+                <h3>Bunny Game</h3>
+                </a>
+                <p>Hop over the obstacles! A replica of the offline dinosaur game, made using html, css and vanilla javascript.</p>
+            </div>
+        </div>
+
+
+
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="section">
+        <h2>Contact</h2>
+        <p>Personal Email: eugenehh2016@gmail.com</p>
+        <p>Email: efyeh2@nottingham.edu.my</p>
+        <p>Phone Number: +6011 17963133</p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/eugene-huang-xin-zhe-299928298/">Click here</a></p>
+        <p>GitHub: <a href="https://github.com/HappyWizard">Click here</a></p>
+
+
+    </section>
+
+
     <script src="script.js"></script>
 </body>
 </html>

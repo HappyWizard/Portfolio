@@ -430,5 +430,11 @@ section{
 
 }
 #projects .text {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
+}
+#experience .text {
+    font-size: 1.1rem;
+}
+#about .text {
+    font-size: 1.3rem;
 }

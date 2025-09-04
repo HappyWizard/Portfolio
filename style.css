@@ -165,29 +165,27 @@ section{
     /* gap:5rem; */
     height:80vh;
     padding-top:5%;
+    /* margin: auto auto; */
 }
 
 .section-pic-container{
     display: flex;
     height:400px;
     width:400px;
-    margin:0 0;
-    padding: 0 0;
     align-self: center;
     text-align: center;
     justify-content: center;
+    flex: 1;
+    margin: 0 auto;
 }
 
 .section-text{
     align-self: center;
     text-align: center;
     justify-content: center;
-
 }
-
 .section-text p{
     font-weight:600;
-
 }
 .section-text-p1{
     text-align: center;
@@ -206,7 +204,6 @@ section{
     justify-content: center;
     margin-top:1rem;
     gap:1rem;
-
 }
 
 /* Icons */
@@ -251,17 +248,18 @@ section{
     gap:1rem;
 }
 
-
-
 .animated-text{
-    font-size: 34px;
+    font-size: 1.8rem; 
+    /* font-size: 34px; */
     font-weight: 600;
-    min-width: 800px;
+    max-width: 800px;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left:0px;
-    margin-right:0px;
+    /* margin-left:0px;
+    margin-right:0px; */
+    margin: 0 auto;
+    white-space: nowrap;
 }
 
 .animated-text span{
@@ -307,7 +305,6 @@ section{
     81%,100%{
         content: "an Electrical and Electronic Engineer!";
     }
-
 }
 
 @keyframes typing {
@@ -378,17 +375,15 @@ section{
   align-items: center;
   flex-wrap: wrap;
   padding: 0 0;
-  margin-right:10px;
+  /* margin-right:10px; */
 
-}
-.section-pic-container {
-  flex: 1;
-  text-align: center;
-  width: 125px;
-  padding: 0 0;
 }
 
 .section-pic-container img {
+  /* object-fit: contain; */
+  width: 100%;
+  height: auto;
+  border-radius: 50%; /* optional for round image */
   object-fit: contain;
 }
 
@@ -414,20 +409,16 @@ section{
     align-items: center;
     text-align: center;
   }
-
   .section-text {
     text-align: center;
   }
-
 }
 
 #about{
     height: 46px;
-
 }
 #experience{
     height: 46px;
-
 }
 #projects .text {
     font-size: 1.1rem;
